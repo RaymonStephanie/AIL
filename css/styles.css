@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  background: linear-gradient(90deg, red 0%, rgba(255, 255, 255, 1) 50%);
+  overflow: none;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🔴</text></svg>") 16 0, auto;
+}
+
+.nav {
+  position: sticky;
+  top: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav a {
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+}
+
+.nav a:hover {
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  background: red;
+}
+
+.nav a.home:hover {
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  background: lightskyblue;
+}
+
+.nav a.home {
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  background: #000000;
+}
+
+p.ho {
+  color: black;
+  font-size: 2rem;
+  font-family: 'Itim', cursive;
+}
+
+ul.ho {
+  font-size: 1.5rem;
+}
+
+.ho {
+  color: black;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 16px;
+  margin: 3rem 1rem 1rem 1rem;
+  padding: 2rem;
+  overflow: scroll;
+}
+
+.card:hover {
+  box-shadow: 1rem 1rem #222222;
+}
+
+.hth {
+  font-family: 'Consolas';
+  color: #000000;
+  font-size: 1rem;
+}
+
+table {
+  margin-top: 1rem;
+  border-spacing: 5px;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+.link {
+  color: red;
+  font-size: 1rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.link:hover {
+  background: -webkit-linear-gradient(red 50%, white 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link:visited {
+  color: red;
+  font-size: 1rem;
+  font-family: 'Anton', sans-serif;
+}
